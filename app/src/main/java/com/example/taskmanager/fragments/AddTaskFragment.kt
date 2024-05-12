@@ -20,7 +20,7 @@ import com.example.taskmanager.model.Task
 import com.example.taskmanager.viewmodel.TaskViewModel
 
 
-class AddTaskFragment : Fragment() class AddNoteFragment : Fragment(R.layout.fragment_add_task),
+class AddNoteFragment : Fragment(R.layout.fragment_add_task),
     MenuProvider {
 
     private var addNoteBinding:FragmentAddTaskBinding? = null
